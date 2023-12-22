@@ -5,10 +5,10 @@ import { NewsApiService } from '../../../services/news-api.service';
   selector: 'app-home',
   standalone: true,
   imports: [],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  templateUrl: './sport.component.html',
+  styleUrl: './sport.component.css'
 })
-export class HomeComponent implements OnInit{
+export class SportComponent implements OnInit{
 
   constructor(private newsService: NewsApiService) {}
 
